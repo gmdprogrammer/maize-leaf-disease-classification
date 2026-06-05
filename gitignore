@@ -1,0 +1,84 @@
+# ============================================================
+# .gitignore — Maize Disease Classification Project
+# ============================================================
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ── Jupyter / IPython ─────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data files (too large for Git) ────────────────────────
+*.csv
+*.pth
+*.pt
+*.pkl
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# ── Dataset folders ───────────────────────────────────────
+data/
+datasets/
+raw/
+consolidated/
+
+# ── Model checkpoints ─────────────────────────────────────
+checkpoints/
+*.pth
+*.pt
+
+# ── Output figures (large PNGs) ───────────────────────────
+figures/
+gradcam/
+
+# ── Reports and logs ──────────────────────────────────────
+reports/
+*.log
+
+# ── ZIP archives ──────────────────────────────────────────
+*.zip
+*.tar.gz
+*.tar
+
+# ── Kaggle credentials (NEVER commit!) ────────────────────
+kaggle.json
+.kaggle/
+
+# ── Google credentials ────────────────────────────────────
+credentials.json
+token.json
+service_account.json
+
+# ── OS / IDE ──────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Colab local cache ─────────────────────────────────────
+/content/
